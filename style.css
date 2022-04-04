@@ -1,0 +1,31 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: 'Unica One', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: rgba(255, 17, 220, 0.8);
+  
+  /* Add contrast to text */
+  background-color: black;
+}
